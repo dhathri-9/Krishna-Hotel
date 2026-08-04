@@ -46,7 +46,7 @@ const Amenities = () => {
           viewport={{ once: true }}
           className="h-[400px] overflow-hidden rounded-lg shadow-xl"
         >
-          <img src="/images/convention hall.jpeg" alt="Conference Hall" className="w-full h-full object-cover img-enhance" />
+          <img src="/images/images/convention hall.jpeg" alt="Conference Hall" className="w-full h-full object-cover img-enhance" />
         </motion.div>
         <motion.div 
           initial={{ opacity: 0, x: 30 }}

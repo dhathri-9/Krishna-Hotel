@@ -16,7 +16,7 @@ const Dining = () => {
           className="h-[500px] overflow-hidden rounded-lg"
         >
           <img 
-            src="/images/dinning.png" 
+            src="/images/images/dinning.png" 
             alt="Fine Dining Restaurant" 
             className="w-full h-full object-cover img-enhance"
           />

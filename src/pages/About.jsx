@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="h-[400px] bg-gray-200 rounded-lg overflow-hidden">
           <img 
-            src="/images/lobby.png" 
+            src="/images/images/lobby.png" 
             alt="Hotel Lobby" 
             className="w-full h-full object-cover img-enhance"
           />

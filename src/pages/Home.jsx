@@ -14,7 +14,7 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="w-full max-w-6xl mx-auto rounded-2xl overflow-hidden shadow-2xl mb-12 relative"
           >
-             <img src="/images/entrance.png" alt="Hotel Entrance" className="w-full h-auto block img-enhance" />
+             <img src="/images/images/entrance.png" alt="Hotel Entrance" className="w-full h-auto block img-enhance" />
           </motion.div>
           
           {/* Text Underneath */}
@@ -84,7 +84,7 @@ const Home = () => {
       {/* Exterior Image Section */}
       <section className="px-4 py-8 bg-brand-light">
         <div className="max-w-7xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
-          <img src="/images/exterior.png" alt="Hotel Exterior Building" className="w-full h-auto block img-enhance" />
+          <img src="/images/images/exterior.png" alt="Hotel Exterior Building" className="w-full h-auto block img-enhance" />
         </div>
       </section>
 
@@ -101,7 +101,7 @@ const Home = () => {
               <button className="btn-outline">Read Our Story</button>
             </div>
             <div className="h-[400px] overflow-hidden rounded-lg shadow-xl">
-              <img src="/images/reception.png" alt="Reception Desk" className="w-full h-full object-cover img-enhance" />
+              <img src="/images/images/reception.png" alt="Reception Desk" className="w-full h-full object-cover img-enhance" />
             </div>
           </div>
         </div>

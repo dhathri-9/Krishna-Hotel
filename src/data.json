@@ -13,27 +13,27 @@
       "price": "₹4500",
       "capacity": "2 Adults",
       "amenities": ["King Size Bed", "Free WiFi", "Mini Bar", "AC", "TV"],
-      "image": "/images/room 1.png"
+      "image": "/images/images/room 1.png"
     },
     {
       "id": 2,
       "title": "Deluxe Room",
-      "description": "Comfortable stay with modern amenities.",
-      "price": "₹3000",
-      "capacity": "2 Adults",
-      "amenities": ["Queen Size Bed", "Free WiFi", "AC", "TV"],
-      "image": "/images/room 2.png"
+      "price": "₹3,000",
+      "capacity": "2 Guests",
+      "size": "300 sq ft",
+      "description": "Elegant design with premium furnishings and city views.",
+      "image": "/images/images/room 2.png"
     }
   ],
   "gallery": [
-    "/images/exterior.png",
-    "/images/entrance.png",
-    "/images/lobby.png",
-    "/images/room 1.png",
-    "/images/room 2.png",
-    "/images/dinning.png",
-    "/images/convention hall.jpeg",
-    "/images/reception.png"
+    "/images/images/exterior.png",
+    "/images/images/entrance.png",
+    "/images/images/lobby.png",
+    "/images/images/room 1.png",
+    "/images/images/room 2.png",
+    "/images/images/dinning.png",
+    "/images/images/convention hall.jpeg",
+    "/images/images/reception.png"
   ],
   "testimonials": [
     {
