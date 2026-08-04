@@ -44,7 +44,7 @@ const Navbar = () => {
           {/* Book Now Button & Mobile Toggle */}
           <div className="flex items-center">
             <div className="hidden lg:block">
-              <button className="btn-primary">Book Now</button>
+              <Link to="/contact" className="btn-primary inline-block">Book Now</Link>
             </div>
             <div className="lg:hidden flex items-center ml-4">
               <button onClick={() => setIsOpen(!isOpen)} className="text-brand-dark hover:text-brand-gold">
@@ -69,8 +69,8 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <div className="px-3 py-4">
-              <button className="btn-primary w-full">Book Now</button>
+            <div className="px-3 py-4 text-center">
+              <Link to="/contact" className="btn-primary block w-full text-center" onClick={() => setIsOpen(false)}>Book Now</Link>
             </div>
           </div>
         </div>

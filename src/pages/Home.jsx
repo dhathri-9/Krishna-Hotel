@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -40,7 +41,7 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <button className="btn-primary">Explore Our Rooms</button>
+              <Link to="/rooms" className="btn-primary inline-block">Explore Our Rooms</Link>
             </motion.div>
           </div>
         </div>
@@ -98,7 +99,7 @@ const Home = () => {
               <p className="text-gray-600 font-light leading-relaxed mb-8">
                 Step into a world of elegance. At Krishna Residency, we combine modern luxury with warm hospitality to create an unforgettable stay. From our beautifully appointed rooms to our world-class dining, every detail is designed with your comfort in mind. Our dedicated staff is here 24/7 to ensure your every need is met.
               </p>
-              <button className="btn-outline">Read Our Story</button>
+              <Link to="/about" className="btn-outline inline-block">Read Our Story</Link>
             </div>
             <div className="h-[400px] overflow-hidden rounded-lg shadow-xl">
               <img src="/images/images/reception.png" alt="Reception Desk" className="w-full h-full object-cover img-enhance" />
