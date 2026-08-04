@@ -26,7 +26,11 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex space-x-6 items-center">
             {navLinks.map((link) => (
-              <Link key={link.name} to={link.path} className="text-sm uppercase tracking-wider text-brand-dark hover:text-brand-gold transition duration-300">
+              <Link 
+                key={link.name} 
+                to={link.path} 
+                className="px-4 py-2 rounded-full border border-gray-300 text-xs uppercase tracking-wider text-brand-dark hover:bg-brand-gold hover:text-white hover:border-brand-gold transition-all duration-300"
+              >
                 {link.name}
               </Link>
             ))}
@@ -48,7 +52,7 @@ const Navbar = () => {
                 key={link.name} 
                 to={link.path} 
                 onClick={() => setIsOpen(false)}
-                className="block px-3 py-2 text-sm uppercase tracking-wider text-brand-dark hover:text-brand-gold"
+                className="block px-4 py-3 mb-2 text-center rounded-lg border border-gray-200 text-sm uppercase tracking-wider text-brand-dark hover:bg-brand-gold hover:text-white hover:border-brand-gold transition-all duration-300"
               >
                 {link.name}
               </Link>
