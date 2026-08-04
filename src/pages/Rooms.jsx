@@ -1,6 +1,7 @@
 import hotelData from '../data.json';
 import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Rooms = () => {
   return (
@@ -44,7 +45,7 @@ const Rooms = () => {
                 </ul>
               </div>
               
-              <button className="btn-outline">Book This Room</button>
+              <Link to="/contact" className="btn-outline inline-block">Book This Room</Link>
             </div>
           </motion.div>
         ))}

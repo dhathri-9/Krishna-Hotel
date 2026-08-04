@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Dining = () => {
   return (
@@ -27,15 +28,15 @@ const Dining = () => {
           viewport={{ once: true }}
         >
           <h3 className="text-3xl font-serif text-brand-dark mb-4">The Grand Restaurant</h3>
-          <p className="text-gray-600 font-light leading-relaxed mb-6">
-            Indulge in a gastronomic journey at our signature restaurant. Our master chefs curate exquisite dishes using the freshest local ingredients, blending traditional flavors with contemporary techniques. Whether it's a romantic dinner or a family gathering, the elegant ambiance sets the perfect stage.
+          <p className="text-gray-600 font-light leading-relaxed mb-8">
+            Experience culinary excellence at our signature restaurant. Our master chefs prepare exquisite dishes using the finest ingredients, blending local flavors with international cuisine. Whether you're joining us for a hearty breakfast buffet or a romantic candlelight dinner, our elegant dining hall provides the perfect ambiance for an unforgettable meal.
           </p>
           <ul className="space-y-2 mb-8">
             <li className="text-gray-600 font-light"><strong className="text-brand-dark font-medium">Breakfast:</strong> 7:00 AM - 10:30 AM</li>
             <li className="text-gray-600 font-light"><strong className="text-brand-dark font-medium">Lunch:</strong> 12:30 PM - 3:00 PM</li>
             <li className="text-gray-600 font-light"><strong className="text-brand-dark font-medium">Dinner:</strong> 7:00 PM - 11:00 PM</li>
           </ul>
-          <button className="btn-outline">Reserve a Table</button>
+          <Link to="/contact" className="btn-outline inline-block">Reserve a Table</Link>
         </motion.div>
       </div>
     </div>

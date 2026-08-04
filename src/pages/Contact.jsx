@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
         <div>
           <h3 className="text-2xl font-serif text-brand-dark mb-6">Send us a Message</h3>
-          <form className="space-y-6">
+          <form className="space-y-6" onSubmit={(e) => { e.preventDefault(); alert("Message sent successfully! We will get back to you soon."); }}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">First Name</label>

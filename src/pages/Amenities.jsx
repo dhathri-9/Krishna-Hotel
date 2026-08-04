@@ -1,5 +1,6 @@
 import { Utensils, Wifi, Car, Coffee, Wind, Tv, Shield, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const amenitiesList = [
   { icon: <Utensils size={32} />, name: 'Fine Dining Restaurant', desc: 'Experience culinary delights prepared by our expert chefs.' },
@@ -58,7 +59,7 @@ const Amenities = () => {
           <p className="text-gray-600 font-light leading-relaxed mb-8">
             Host your corporate events, seminars, or private gatherings in our state-of-the-art conference room. Equipped with modern audio-visual technology and comfortable seating, our hall provides the perfect environment for successful meetings. Our events team is on hand to assist with planning, catering, and execution to ensure a flawless experience.
           </p>
-          <button className="btn-outline">Inquire for Events</button>
+          <Link to="/contact" className="btn-outline inline-block">Inquire for Events</Link>
         </motion.div>
       </div>
     </div>

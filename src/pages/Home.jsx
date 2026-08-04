@@ -49,7 +49,7 @@ const Home = () => {
         {/* Booking Inquiry Bar */}
         <div className="w-full px-4">
           <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-xl p-6 md:p-8 border border-gray-100 transform -translate-y-6">
-            <form className="grid grid-cols-1 md:grid-cols-5 gap-4 items-end">
+            <form className="grid grid-cols-1 md:grid-cols-5 gap-4 items-end" onSubmit={(e) => { e.preventDefault(); alert("Inquiry submitted! Our team will contact you shortly."); }}>
               <div>
                 <label className="block text-xs uppercase tracking-wider text-gray-500 mb-2 font-medium">Check In</label>
                 <input type="date" className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-brand-gold text-brand-dark" />
