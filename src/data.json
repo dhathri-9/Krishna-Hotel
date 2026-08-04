@@ -1,0 +1,52 @@
+{
+  "hotelName": "Hotel Sri Krishna's Residency",
+  "address": "Governor peta, Vijayawada",
+  "contact": {
+    "phone": "0866 2575301",
+    "email": "info@krishnaresidency.com"
+  },
+  "rooms": [
+    {
+      "id": 1,
+      "title": "Executive Suite",
+      "description": "Experience luxury with our spacious executive suite.",
+      "price": "₹4500",
+      "capacity": "2 Adults",
+      "amenities": ["King Size Bed", "Free WiFi", "Mini Bar", "AC", "TV"],
+      "image": "/images/room 1.png"
+    },
+    {
+      "id": 2,
+      "title": "Deluxe Room",
+      "description": "Comfortable stay with modern amenities.",
+      "price": "₹3000",
+      "capacity": "2 Adults",
+      "amenities": ["Queen Size Bed", "Free WiFi", "AC", "TV"],
+      "image": "/images/room 2.png"
+    }
+  ],
+  "gallery": [
+    "/images/exterior.png",
+    "/images/entrance.png",
+    "/images/lobby.png",
+    "/images/room 1.png",
+    "/images/room 2.png",
+    "/images/dinning.png",
+    "/images/convention hall.jpeg",
+    "/images/reception.png"
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rahul S.",
+      "review": "Excellent stay! The staff was very courteous and the rooms were exceptionally clean.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Priya M.",
+      "review": "Great location and wonderful amenities. The dining experience was fantastic.",
+      "rating": 4
+    }
+  ]
+}
